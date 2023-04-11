@@ -62,7 +62,7 @@ const config = {
         title: "JiPai's knowledgeBase",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "https://avatars.githubusercontent.com/u/3956400?v=4",
         },
         items: [
           {

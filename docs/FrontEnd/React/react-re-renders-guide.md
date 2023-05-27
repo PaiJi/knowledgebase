@@ -1,3 +1,8 @@
+---
+authors: JiPai
+tags: [react]
+---
+
 # 读书笔记：React 重渲染指南(react-re-renders-guide)
 
 这是一篇《React 重渲染指南(react-re-renders-guide)》的读书笔记。以下简介摘选之原文。

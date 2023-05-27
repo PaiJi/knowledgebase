@@ -43,13 +43,21 @@ const config = {
         blog: false,
         // blog: {
         //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   blogSidebarTitle: '最近文章',
+        //   blogSidebarCount: 5,
         // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
+        gtag: {
+          trackingID: "G-5WYDZHJ10D",
+          anonymizeIP: true,
         },
       }),
     ],

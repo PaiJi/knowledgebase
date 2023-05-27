@@ -93,10 +93,9 @@ const config = {
                 href: "https://www.jipai.moe",
               },
               {
-                label: "Blog",
+                label: "博客",
                 href: "https://blog.jipai.moe",
               },
-              { label: "Projects", href: "https://www.jipai.moe/projects" },
             ],
           },
         ],

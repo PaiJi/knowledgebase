@@ -51,7 +51,7 @@ Props 改变不是导致子组件重新渲染的直接原因，直接原因是�
 
 ### 在组件中创建别的组件并使用它
 
-```
+```jsx
 const Editor=()=>{
 
 const <Input>=()=> <input />
@@ -71,13 +71,13 @@ const <Input>=()=> <input />
 适当的拆分组件，确保重渲染只发生在需要它的组件内部。
 
 ### 将组件作为props传入并使用
-```
+```jsx
 <div onClick={handleClick}>
     <UserInfo/>
 </div>
 ```
 
-```
+```jsx
 const UserInfoWrapper=({children})=>{    
     return <div onClick={handleClick}>{children}</div>
 }

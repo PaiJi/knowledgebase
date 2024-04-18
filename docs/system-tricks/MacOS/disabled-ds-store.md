@@ -2,11 +2,11 @@
 # 不要在网络磁盘下生成 .DS_Store
 
 
-```
+```bash
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```
 然后重启设备, 查询状态
-```angular2html
+```bash
 defaults read com.apple.desktopservices
 ```
 

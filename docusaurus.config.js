@@ -1,9 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const { themes } = require("prism-react-renderer");
-const lightTheme = themes.github;
-const darkTheme = themes.dracula;
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,33 +76,29 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "知识库",
+            label: "首页",
+          },
+          {
+            href: "https://www.jipai.moe",
+            label: "JiPai's Home",
+            position: "left",
+          },
+          {
+            href: "https://blog.jipai.moe",
+            position: "left",
+            label: "Blog",
           },
           // {to: '/blog', label: '笔记', position: 'left'},
         ],
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "More",
-            items: [
-              {
-                label: "首页",
-                href: "https://www.jipai.moe",
-              },
-              {
-                label: "博客",
-                href: "https://blog.jipai.moe",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} [JiPai Store], Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} JiPai Lab. Built with Docusaurus and 🍜.`,
       },
       prism: {
-        theme: lightTheme,
-        darkTheme: darkTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+        additionalLanguages: ["bash","typescript"],
       },
     }),
 };

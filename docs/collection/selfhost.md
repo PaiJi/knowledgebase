@@ -5,3 +5,6 @@ sidebar_label: Selfhost 实用工具
 # Selfhost 实用工具
 ## [coolify](https://coolify.io/)
 一个自部署类 Vercel/Netlify 平台的解决方案！缺点是资源占用有点高，如果有不差钱的 VPS 可以玩玩看。
+
+## [dokploy](https://dokploy.com/)
+另一个自部署类 Vercel/Netlify 平台的解决方案，最低配置要求略低：`at least 2GB of RAM`，界面似乎比 coolify 美观一些。

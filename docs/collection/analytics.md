@@ -16,13 +16,25 @@ sidebar_label: Analytics
 
 缺点当然也有，饱受诟病的一点是 GA 收集过多数据，GDPR 不高兴。
 
-### Umami
+### [Umami](https://github.com/umami-software/umami)
 
 开源拖拉机之一，“GA 的轻量替代品，100%GDPR 合规。”支持自托管，提供官方 Docker 镜像，底层是你熟悉的 MySQL 或者 PostgreSQL。如果你只需要简单统计一下访客和访问页面这种东西，不涉及任何进阶需求（比如转化漏斗），那么 Umami 也许是你的不二之选。
 
-### Posthog
+### [Plausible](https://plausible.io/)
 
-这家的 Web Analytics 业务正在 beta 阶段。
+更高级一些的开源产品，和 Umami 一样支持自部署和官方 SaaS，但是注意其部分核心付费功能是不存在于开源代码中的。官方云没有免费套餐，起价 9$一个月。
+
+### [Posthog](https://posthog.com/web-analytics)
+
+这家的 Web Analytics 业务正在 beta 阶段，想吃螃蟹可以上，免费套餐看起来还不错。
+
+### [Prisch](https://pirsch.io/)
+
+基于 Go 开发的分析产品，没有免费套餐，官方的口径是自托管需要购买企业套餐，但他们的源码是开放的，如果你想在没有官方的技术支持的情况下捣鼓这玩意可以一试。
+
+### [Simple Analytics](https://www.simpleanalytics.com/)
+
+免费套餐的用量很有限：最大查看最近 30 天记录，数据至多保留 60 天，没有收集事件功能等等。
 
 ## Product Analytics
 
@@ -46,4 +58,5 @@ MixPanel 侧重提供基于事件驱动的产品分析，它拥有优秀美观�
 微软推出的免费 Replay 产品，可追踪用户的兴趣点击热区，界面美观好看，更已加入 Bing AI 加持（虽然怀疑没大用就是了）。
 
 ### Posthog
-这家已经出现好几次，没错，这家主打一个分析全家桶，什么都有，不过免费版的Replay次数较低，建议看看别家。
+
+这家已经出现好几次，没错，这家主打一个分析全家桶，什么都有，不过免费版的 Replay 次数较低，建议看看别家。

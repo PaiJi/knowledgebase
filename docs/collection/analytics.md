@@ -49,7 +49,7 @@ MixPanel 侧重提供基于事件驱动的产品分析，它拥有优秀美观�
 
 ## Session Replay
 
-### Sentry
+### [Sentry](https://sentry.io/welcome/)
 
 严格来说 Sentry 的 Replay 功能不能用于追踪用户兴趣，而是用于追踪 bug 发生时的操作，不过也算 replay，所以放在这里。
 
@@ -60,3 +60,17 @@ MixPanel 侧重提供基于事件驱动的产品分析，它拥有优秀美观�
 ### Posthog
 
 这家已经出现好几次，没错，这家主打一个分析全家桶，什么都有，不过免费版的 Replay 次数较低，建议看看别家。
+
+## Bug Monitor
+
+### [Sentry](https://sentry.io/welcome/)
+
+Sentry 可谓是这个行业的佼佼者，但是自托管实在是性能怪兽，升级时也是地狱般的体验，如果没有足够自信的实力，就用他们的 SaaS 吧，缺点是境内的连通性好像不怎么样。
+
+### [highlight.io](https://github.com/highlight/highlight)
+
+类 Sentry 的开源产品，也有自己的 SaaS 云，从错误监控到会话重播、性能监控等等，看起来功能挺全，支持自部署。但是配置要求还是不低：
+
+```
+ at least 8GB of RAM, 4 CPUs, and 64 GB of disk space
+```

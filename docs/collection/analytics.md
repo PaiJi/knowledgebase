@@ -34,7 +34,15 @@ sidebar_label: Analytics
 
 ### [Simple Analytics](https://www.simpleanalytics.com/)
 
-免费套餐的用量很有限：最大查看最近 30 天记录，数据至多保留 60 天，没有收集事件功能等等。
+又一个打着 Google Analytics 替代品口号的分析产品，免费套餐虽然提供了最大 10 个网站的额度，但关键功能严重缺失：最大只能查看最近 30 天记录，数据至多保留 60 天，没有收集事件功能等等。
+
+### [Fathom Analytics](https://usefathom.com/)
+
+又一个打着 Google Analytics 替代品口号的分析产品，符合 GDPR，不使用第三方 cookies 等等等等，但是没有免费套餐，按照事件数阶梯收费，起步价 15$ 一个月（100000 个事件）。
+
+### [OpenPanel](https://openpanel.dev/)
+
+自称结合了 Plausible 的简洁明了的统计面板和 Mixpanel 的强大能力，现在还是 beta 版不收钱，正式版发布后按照事件数阶梯收费，也会有自部署功能。
 
 ## Product Analytics
 

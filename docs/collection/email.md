@@ -24,3 +24,20 @@ Email Support
 1 Domain
 1-day Data Retention
 ```
+
+### [UsePlunk](https://www.useplunk.com/)
+
+Plunk 是一个和 Resend 同类型，但是开源的自托管邮件系统，当然你也可以选择他们的付费云，免费套餐配额如下：
+
+````
+1000 automated emails per month
+
+1000 transactional emails per month
+
+1000 campaign emails per month
+
+Unlimited contacts
+
+Email from your own domain
+```〔筆畫〕
+````
